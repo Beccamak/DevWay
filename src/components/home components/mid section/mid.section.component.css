@@ -1,0 +1,26 @@
+.mid-section{
+    width: 100%;
+    height: 32rem;
+    background-color: #ededff;
+    display: flex;
+    justify-content: space-between;
+    padding: 4.8rem;
+    margin-bottom: 9.6rem;
+}
+
+.mid-up{
+    max-width: 45%;
+    font-size: 3.6rem;
+}
+.line{
+    width: 2px;
+    height: 60%;
+    background-color: #dbdbff;
+    align-self: center;
+}
+
+.mid-down{
+    max-width: 45%;
+    font-size: 1.6rem;
+    line-height: 1.4;
+}

@@ -1,0 +1,65 @@
+.nav{
+   
+    width: 100%;
+    margin-bottom: 9.6rem;
+    /* box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.075); */
+}
+
+.nav-bar{
+   
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    padding:2.5rem 0;
+    justify-content: space-between;
+    gap: 3.4rem;
+    font-size: 1.4rem;
+}
+.start{
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+.pages-con{
+    display:flex;
+    gap: 1.2rem;
+   
+}
+.logo-txt{
+    font-size: 2.4rem;
+    color: #17174c;
+    font-weight: 700;
+    cursor: pointer;
+    transition: font-size 1s linear;
+  
+}
+.logo-txt:hover{
+    font-size: 2.6rem;
+}
+.page{
+    color: #101828;
+    
+     /* opacity: 0.7; */
+     /* font-weight: 500; */
+}
+.account-con{
+    display: flex;
+    gap: 1.4rem;
+    align-items: center;
+}
+.log-in{
+    opacity: 0.7;
+}
+.sign-up{
+    color: #ffffff;
+    background-color: #4D4DFF;
+    border-radius: 4px;
+    padding: 0.8rem 1.4rem;
+    transition: background-color 0.3s linear;
+}
+.sign-up:hover{
+    background-color: #ffffff;
+    border: 1px solid #4D4DFF;
+    color: #4D4DFF;
+}

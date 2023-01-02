@@ -1,0 +1,17 @@
+.all-posts{
+    margin-bottom: 9.6rem;
+}
+
+.post-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2.4rem;
+    
+}
+.post-header{
+    display: flex;
+    align-items: center;
+}
+.posts-container img{
+    width: 100%;
+}

@@ -1,0 +1,38 @@
+.recent-posts{
+    margin-bottom: 9.6rem;
+}
+.recent-title{
+    margin-bottom: 1.2rem;
+    font-size: 1.4rem;
+}
+.posts-con{
+    display: flex;
+    /* gap: 9.6rem; */
+    width: 100%;
+    justify-content: space-between;
+}
+
+.top-post{
+    width: 30%;
+}
+.top-post img{
+    width: 100%
+    
+}
+
+.post-name{
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+    color: #4D4DFF;
+}
+
+.post-title{
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+}
+.post-des{
+    color: #475467;
+    margin-bottom: 1.2rem;
+    
+}

@@ -1,0 +1,64 @@
+.bg-hs{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 9.6rem;
+    margin-bottom: 12.8rem;
+}
+.bg-title{
+    font-weight: 200;
+    font-size: 1.2rem;
+    color: #4D4DFF;
+}
+
+.bg-title, .bg-desc,
+.bg-sub-txt{
+    margin-bottom: 1.4rem;
+    
+}
+
+
+.bg-desc{
+    font-size: 4.8rem;
+}
+.bg-sub-txt{
+    font-size: 1.2rem;
+    opacity: 0.7;
+}
+
+.email-stn{
+  
+    display: flex;
+    gap: 1.2rem;
+    width: 30%;
+}
+.email-input{
+    border-radius: 4px;
+    font-size: 1.4rem;
+    color: red;
+    padding: 0.7rem 0;
+    width: 100%;
+    border: none;
+    border: 1px solid #d5d6d9;
+
+}
+.email-input::placeholder{
+    font-size: 1.2rem;
+    color: #8a909e;
+    padding-left: 1.4rem;
+
+}
+.email-input input[type="text"]:focus{
+}
+.sub-btn{
+    background-color: none;
+    background-color: #4D4DFF;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    padding: 1rem 1.8rem;
+    border-radius: 4px;
+    font-size: 1.2rem;
+}
