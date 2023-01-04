@@ -6,8 +6,8 @@ const AllPosts = () => {
     return(
       <div className="all-posts">
       <div className="posts-header">
-      <p>All blog posts</p>
-      <input placeholder="Search post"/>
+      <p className="posts-title">All blog posts</p>
+      <input  type="text" placeholder="Search posts" className="search-post"/>
       </div>
       <div className="post-cards">
       { Posts.filter((_, index) => index>3).map(post => {

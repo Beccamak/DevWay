@@ -5,6 +5,7 @@
     /* box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.075); */
 }
 
+
 .nav-bar{
    
     height: 7rem;
@@ -38,10 +39,30 @@
     font-size: 2.6rem;
 }
 .page{
-    color: #101828;
+    color: #16262d;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
     
-     /* opacity: 0.7; */
-     /* font-weight: 500; */
+}
+.page:hover{
+    color: #16262d;
+    border-bottom: 5px solid #dee2e6;
+    /* transition: border .8s ease; */
+    font-weight: 700;
+
+}
+.active-link{
+    color: #4D4DFF;
+    border-bottom: 5px solid #4D4DFF;
+    font-weight: 700;
+
+}
+.active-link:hover{
+    color: #4D4DFF;
+    border-bottom: 5px solid #4D4DFF;
+    font-size: 1.5rem;
+    /* transition: border .8s ease; */
 }
 .account-con{
     display: flex;

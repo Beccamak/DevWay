@@ -1,4 +1,5 @@
 import './post.card.component.styles.css';
+import {Tags } from '../../posts';
 
 
 
@@ -10,7 +11,14 @@ const PostCard = ({cardDetails}) => {
         <p className='post-name'>{writer} .{date}</p>
         <p className='post-title'>{title}</p>
         <p  className='post-des'>{description}</p>
-        <p className='tags'>{tags}</p>
+        <div className='tags'>
+        {
+            tags.map(tag => {
+                console.log()
+                return <p  className="tag" style={{color: `${Tags[tag]}`, backgroundColor: `${Tags[tag]}11`}}> {tag}</p>
+            })
+        }
+        </div>
         </div>
         
     )

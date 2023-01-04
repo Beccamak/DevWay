@@ -13,26 +13,45 @@
  
 
 }
+.hi{
+  background-color:#ffffff;
+  justify-self: center;
+  width: 30rem;
+  height: 30rem;
+  transform: rotate(45deg);
+  /* padding: 1.4rem 2.4rem; */
+  margin-top: -12.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius:18px;
+
+  /* padding-top: 3.6rem; */
+  
+}
 .services-text-con{
   /* background-color: #4f4f4f; */
   padding-bottom: 18.2rem;
 }
 
 .our-services{
-    font-size: 2.4rem;
+    font-size: 3.6rem;
     /* background-color: #4D4DFF; */
     opacity: 1;
     color: #ffffff;
     text-align: center;
+    padding: 2.4rem 0;
+ 
     
     /* padding: 1.2rem 0 1.2rem 1.2rem; */
-    margin-bottom: 2.4rem;
 
 }
 .services-text{
     margin-bottom: 9.6rem;
     text-align: center;
     color: #ffffff;
+
+    font-size: 1.4rem;
 }
 .services-cards{
     /* position: relative; */
@@ -58,7 +77,8 @@
  
     /* z-index: 100; */
     /* height: 100%; */
-    
+    transform: rotate(-45deg);
+    justify-self: center;
     
 }
 .service-card{
@@ -68,7 +88,7 @@
     /* position: absolute; */
     /* top: 50%;
     left: 50%; */
-    justify-self: center;
+    /* justify-self: center; */
     width: 25rem;
     height: 25rem;
     /* width: 20rem;
@@ -81,7 +101,7 @@
     /* overflow: hidden; */
   
     /* background-color: #ffffff; */
-    transform: rotate(-45deg);
+    /* transform: rotate(-45deg); */
     border-radius:18px;
     /* box-shadow: 0.2rem 0rem 0.8rem 0 #000000; */
      box-shadow: 0 6px 12px #00334e1a;
@@ -97,29 +117,14 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 16rem;
-  margin-top: -2.8rem ;
+  margin-top: -8.4rem;
    
 }
-/* .s1{
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.s2{
-  position: absolute;
-  bottom: 13%;
-  left: 12%;
-  
-}
-.s3{
-  position: absolute;
-  top: 0%;
-  left: 24%;
-  
-} */
 
 .top-card{
-  margin-top: -12.8rem;
+  /* margin-top: -6.8rem;
+  margin-left: -6.8rem;
+   */
 }
 .card-con{ 
    /* position: absolute; */
@@ -130,6 +135,7 @@
   transform: rotate(45deg);
   padding: 2rem;
   text-align: center;
+
   /* top: 0;
   left: 0; */
   /* padding: 2rem; */
@@ -138,4 +144,8 @@
 
  font-size: 1.4rem;
 
+}
+.top{
+  transform: rotate(-45deg);
+  
 }

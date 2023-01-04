@@ -16,3 +16,16 @@
     margin-bottom: 1.2rem;
     
 }
+
+.tags{
+    display: flex;
+    gap: 1.2rem;
+    font-size: 1.2rem;
+}
+
+.tag{
+    padding: 0.4rem 0.8rem;
+    border-radius: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+}

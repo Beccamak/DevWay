@@ -62,8 +62,14 @@
     margin-left: 0.75rem;
     margin-right: 0.75rem;
     text-align: center;
+    margin-bottom: 1.2rem;
 }
 .lang-icon{
     width: 2.4rem;
     height: 2.4rem;
+}
+.tech-name{
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    text-transform: capitalize;
 }

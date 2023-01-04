@@ -1,4 +1,5 @@
 import './services.styles.css';
+import {Link} from 'react-router-dom';
 
 
 const Services = () => {
@@ -8,16 +9,18 @@ const Services = () => {
         <div className='services-con'>
         <div className='services-text-con'>
         <p className='our-services'>Our Services</p>
-        <p className='services-text'>Lokfw mdkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjfffffff</p>
+        <p className='services-text'>These are the services that we render to our clients and that also involves our <Link to="/">products</Link></p>
         </div>
         <div className='services-cards'>
         <div className='sers'>
         {arr.map((ar, index) => {
-            return <div className={`service-card  top-card s${index + 1}`}>
-            <div className='card-con'>
+            return <div className='hi'>
+            <div className={`service-card  top-card`}>
+            <div className='card-con top'>
             <p className='card-title '>Web development</p>
             </div>
             
+            </div>
             </div>
         })}
         </div>

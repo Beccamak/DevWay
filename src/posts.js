@@ -1,4 +1,10 @@
 import PostPicture from './assets/images/download.jpg';
+
+export const Tags = {
+    design: "#0000ff",
+    research: "#800080",
+    "artificial intelligence": "#ff0000"
+};
 const Posts = [
     {
         writer: "Rebecca Makinde",

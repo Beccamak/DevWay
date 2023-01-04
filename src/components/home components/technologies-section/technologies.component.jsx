@@ -24,7 +24,7 @@ const Technologies = () => {
           return tech[Object.keys(tech)].map(technology => {
             return  <div className='tech-box' >
                     {stacksIcon[technology]};
-                    <p>{technology}</p>
+                    <p className='tech-name'>{technology}</p>
                     </div>
            })
         })

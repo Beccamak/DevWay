@@ -1,0 +1,167 @@
+.contact{
+    margin-bottom: 9.6rem;
+   
+}
+.contact-us-blob{
+    /* background-size: cover; */
+    width: 600px;
+    height: 600px;
+}
+.contact-header{
+    display: flex;
+    height: 44rem;
+    margin-bottom: 9.6rem;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.contact-header-txt{
+    width: 50%;
+    font-size: 2.4rem;
+
+}
+/* style={{backgroundImage: `url(${ContactImage})`}} */
+.contact-header-img{
+   width: 600px;
+   height: 400px;
+}
+.form-container{
+    display: flex;
+    border-radius: 1.8rem;
+    box-shadow: 0 6px 12px #00334e1a;
+    
+}
+
+label{
+    display: block;
+    font-size: 1.4rem;
+    line-height: 2.4;
+    font-size: 1.4rem;
+    font-weight: 700;
+    
+}
+.details-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.4rem;
+}
+.form{
+    width: 55%;
+    padding: 2.4rem 1.6rem;
+    
+    /* background-color: green; */
+}
+.contact-speech{
+    width: 15%;
+    background-color: #4d4DFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.4rem;
+    border-bottom-left-radius: 1.8rem;
+    border-top-left-radius: 1.8rem;
+   
+    
+    
+}
+/* .contact-speech::before {
+    content: '';
+    position: absolute;
+    top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+        opacity: .6; 
+        z-index: 50;
+    /* } */
+    .contact-speech .text{ 
+        color: #ffffff;
+        font-size: 1.4rem;
+        font-weight: 700;
+     
+    } 
+.get-in-touch{
+    width: 30%;
+   margin: 0 1.6rem;
+    
+}
+
+.get-in-touch .text{
+    font-size: 2.4rem;
+    padding: 2.4rem 1.6rem;
+    margin-bottom: 4.0rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-align: center;
+
+}
+.details-section input, .file{
+    padding: 1.2rem 1.2rem;
+    border-radius: 0.4rem;
+    border: 1px solid #d5d6d9;
+    width: 100%;
+    margin-bottom: 2.4rem;
+    font-size: 1.2rem;
+
+}
+.section-1, .section-2{
+    width: 50%;
+}
+
+.personal-info{
+    font-size: 2.4rem;
+    margin-bottom: 2.4rem;
+}
+.discuss{
+    font-size: 3.6rem;
+    padding: 1rem 1.6rem;
+    color: #4d4DFF;
+    /* background-color: #4d4DFF; */
+   
+}
+
+.brief{
+    padding: 1.2rem 1.2rem;
+    border-radius: 0.4rem;
+    border: 1px solid #d5d6d9;
+    width: 100%;
+    margin-bottom: 2.4rem;
+    font-size: 1.2rem;
+    height: 25.6rem;
+    line-height: 2;
+
+}
+
+.submit{
+    float: right;
+}
+
+.contact-icon{
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.git-details{
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    font-size: 1.4rem;
+    margin-bottom: 6.4rem;
+    cursor: pointer;
+    opacity: 0.7;
+    
+}
+
+.git-details:hover{
+    opacity: 1;
+}
+
+.side{
+    color: #ffffff; 
+}
