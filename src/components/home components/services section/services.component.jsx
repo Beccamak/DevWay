@@ -1,6 +1,7 @@
 import './services.styles.css';
 import {Link} from 'react-router-dom';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDesktop } from '@fortawesome/free-solid-svg-icons';
 
 const Services = () => {
     const arr = [1,2,3];
@@ -30,7 +31,10 @@ const Services = () => {
             return <div className={`service-card service ${index + 1}`}>
             
             <div className='card-con'>
+            <FontAwesomeIcon className='services-icon' icon={faDesktop}/>
             <p className='card-title'>Web development</p>
+            <p className='card-text' >Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassettao.
+            </p>
             </div>
             
             </div>

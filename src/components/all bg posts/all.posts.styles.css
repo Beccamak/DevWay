@@ -5,7 +5,8 @@
 .post-cards{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 2.4rem;
+    row-gap: 9.6rem;
+   column-gap: 2.4rem;
     
 }
 .posts-title{

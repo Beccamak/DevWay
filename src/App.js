@@ -7,7 +7,6 @@ import ContactUs from "./routes/contact us/contact.us.component";
 
 const App = () => {
   return(
-    <div className="container">
     <Routes>
     <Route path="/" element={<Navigation/>}>
     <Route index element={<Home/>} />
@@ -16,7 +15,7 @@ const App = () => {
     <Route path="/contact-us" element={<ContactUs />}/>
     </Route>
     </Routes>
-    </div>
+ 
   )
 
 }

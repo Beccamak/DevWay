@@ -1,6 +1,6 @@
 .tech-con{
-    margin-top: 40rem;
-    height: 30rem;
+    margin-bottom: 9.6rem; 
+     /* height: 30rem; */
 }
 .stacks{
     border-top: 1px solid #ddd;
@@ -52,8 +52,8 @@
     box-shadow: 0 2px 4px #00334e1a;
     border: 1px solid #f2f2f2;
     border-radius: 20px;
-    height: 136px;
-    width: 136px;
+    height: 13.6rem;
+    width: 13.6rem;
     display: flex;
     flex-flow: column;
     justify-content: center;

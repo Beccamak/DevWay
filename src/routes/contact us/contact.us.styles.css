@@ -3,9 +3,9 @@
    
 }
 .contact-us-blob{
-    /* background-size: cover; */
-    width: 600px;
-    height: 600px;
+    background-size: contain;
+    /* width: 600px;
+    height: 600px; */
 }
 .contact-header{
     display: flex;

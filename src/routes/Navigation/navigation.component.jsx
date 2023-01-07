@@ -1,7 +1,8 @@
 import {Link, Outlet } from 'react-router-dom';
 import './navigation.styles.css';
 import {Fragment, useState} from 'react';
-
+import Footer from "../footer/footer.component";
+import Products from '../../components/products/products.component';
 
 
 const Navigation = () => {
@@ -31,10 +32,19 @@ const Navigation = () => {
         <div className='account-con'>
         <Link className='log-in' to="/">Products</Link>
         <Link className='sign-up' to="/">Blog</Link>
+        
+        </div>
+        
+        <Products />
         </div>
         </div>
-        </div>
+        <div className="container">
         <Outlet />
+
+        </div>
+        <Footer />
+        
+
         </Fragment>
     )
 }

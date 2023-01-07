@@ -1,0 +1,30 @@
+.main-abt-us{
+    display: flex;
+    gap: 9.6rem;
+    margin-bottom: 9.6rem;
+}
+.abt-us-img-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.abt-us-img{
+    width: 70%
+}
+
+
+.abt-us-number {
+    font-size: 8.6rem;
+    font-weight: 600;
+    color: #ddd;
+    margin-bottom: 1.2rem;
+  }
+  
+  .abt-us-description {
+    font-size: 1.8rem;
+    line-height: 1.8;
+    /* width: 60%;
+    text-align: center; */
+
+    }
+  

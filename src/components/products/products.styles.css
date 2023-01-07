@@ -1,0 +1,9 @@
+.products{
+    width: 40rem;
+    height: 20rem;
+    position: absolute;
+    background-color: red;
+    top: 100%;
+    right: 5%;
+
+}

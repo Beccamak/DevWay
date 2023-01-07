@@ -13,8 +13,8 @@ const Home = () => {
         <Services />
         <Technologies />
         </div>
-    )
-}
-
-
-export default Home;
+        )
+    }
+    
+    
+    export default Home;
