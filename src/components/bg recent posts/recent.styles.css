@@ -8,7 +8,7 @@
 }
 .posts-con{
     display: grid;
-    grid-template-columns: 1fr 1.4fr;
+    grid-template-columns: 1.5fr 1.4fr;
     column-gap: 2.4rem;
     row-gap: 2.4rem;
 }
@@ -17,16 +17,11 @@
     
 }
 .post-1 img{
-    height: 50%;
-}
-.post-1 img{
-    width: 100%;
-    height: 50%rem;
-}
-.post-2, .post-3 img{
-    width: 35rem;
     height: 20rem;
+    width: 100%;
+    object-fit: cover;
 }
+
 .post-2{
     grid-row: 1/2;
     
@@ -36,6 +31,14 @@
 }
 .post-2, .post-3{
     display: flex;
+    height: 100%;
+}
+
+.recent-post-img2, .recent-post-img3{
+    width: 50%;
+}
+.post-2 img, .post-3 img{
+    width: 100%;
     height: 100%;
 }
 .top-post{
@@ -90,4 +93,8 @@
 }
 .post-details{
     margin-left: 1.4rem;
+    width: 50%;
+}
+.details-1{
+    width: 80%;
 }

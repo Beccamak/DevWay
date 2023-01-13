@@ -1,3 +1,6 @@
+.sec-abt{
+    margin-bottom:20rem;
+}
 .main-abt-us{
     display: flex;
     gap: 9.6rem;
@@ -23,8 +26,7 @@
   .abt-us-description {
     font-size: 1.8rem;
     line-height: 1.8;
-    /* width: 60%;
-    text-align: center; */
+    
 
     }
   

@@ -9,8 +9,9 @@ const ContactUs = () => {
         <div >
          <div className='contact-header'>
          <div className='contact-header-txt'>
-         <p></p>
-         <p >Thank you for your interest in our services and business solutions. Share your requirements and ideas with us and get all your question answered by our experts. Please fill out this form and our representative will get back to you shortly. We are here to help you accelerate digital transformation and drive innovation.</p>
+         <p>Thank you for your interest in our company's services. We value your trust in us and are committed to providing you with the best possible experience. We understand that every customer has unique needs and we strive to meet those needs by providing tailored solutions.</p>
+         <p >
+         We would like to assure you that our customer care team is available to assist you with any queries or concerns you may have. In order to make it easier for you to get in touch with us, we have provided a form below that you can fill out. Once the form is submitted, one of our customer care representatives will reach out to you soon.</p>
          </div>
          <img src={Contact} alt="Coral CLouds"/>        
          </div>

@@ -10,7 +10,7 @@ import Production from '../../assets/images/production.jpg';
 const AboutUs = () => {
    
       return (
-        <section>
+        <section className='sec-abt' >
         <div className='container main-abt-us'>
         <div className='abt-us'>
         <h2 className='secondary-heading text-center'>Who we are</h2>
@@ -33,7 +33,7 @@ const AboutUs = () => {
         <div className='abt-us-txt-box'>
         <p className='abt-us-number'>01</p>
         <h3 className='tertiary-heading'>Planning</h3>
-        <p className='abt-us-description'>In this initial phase we align our project team with yours on the landscape you operate in, and the context of the project. We will conduct research based on both internal sources (stakeholder interviews, sales reports and business strategy documents etc.) and external sources (industry trends, competitor research and customer research).</p>
+        <p className='abt-us-description'>We will schedule meetings, and there will be a lot of filtering to obtain specific details and know what information will be valuable to the users. At this stage, we will be drawing conclusions on the website's content and functionality.</p>
         
         </div>
        <div className='abt-us-img-box'>
@@ -48,7 +48,7 @@ const AboutUs = () => {
        <div className='abt-us-txt-box'>
        <p className='abt-us-number'>02</p>
        <h3 className='tertiary-heading'>Design</h3>
-       <p className='abt-us-description'>In this initial phase we align our project team with yours on the landscape you operate in, and the context of the project. We will conduct research based on both internal sources (stakeholder interviews, sales reports and business strategy documents etc.) and external sources (industry trends, competitor research and customer research).</p>
+       <p className='abt-us-description'>We will present two design options for you to select from. Then we'll make as many modifications as we need to before we get to the final programmed version.</p>
        
        </div>
 
@@ -56,7 +56,7 @@ const AboutUs = () => {
         <div className='abt-us-txt-box'>
         <p className='abt-us-number'>03</p>
         <h3 className='tertiary-heading'>Development</h3>
-        <p className='abt-us-description'>In this initial phase we align our project team with yours on the landscape you operate in, and the context of the project. We will conduct research based on both internal sources (stakeholder interviews, sales reports and business strategy documents etc.) and external sources (industry trends, competitor research and customer research).</p>
+        <p className='abt-us-description'>The agreed design, features, and functionalities will be coded during the Website Development stage..</p>
         
         </div>
        <div className='abt-us-img-box'>
@@ -71,7 +71,9 @@ const AboutUs = () => {
          <div className='abt-us-txt-box'>
          <p className='abt-us-number'>04</p>
          <h3 className='tertiary-heading'>Production</h3>
-         <p className='abt-us-description'>In this initial phase we align our project team with yours on the landscape you operate in, and the context of the project. We will conduct research based on both internal sources (stakeholder interviews, sales reports and business strategy documents etc.) and external sources (industry trends, competitor research and customer research).</p>
+         <p className='abt-us-description'>We will host the website once it has been designed and thoroughly tested, and continuous maintenance will be performed.
+         Lorem Ipsum har været standard fyldtekst siden 1500-tallet, hvor en ukendt trykker sammensatte en tilfældig spalte for at trykke en bog til sammenligning af forskellige skrifttyper.
+         </p>
          
          </div>
         

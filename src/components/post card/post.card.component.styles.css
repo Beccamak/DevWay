@@ -33,3 +33,20 @@
     font-weight: 700;
     text-transform: capitalize;
 }
+.arr-name{
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.arrow{
+    transform: rotate(45deg);
+    cursor: pointer;
+    width: 1.6rem;
+    height:1.6rem;
+    opacity: 0.7;
+
+}
+.arrow:hover{
+    opacity: 0.9;
+}

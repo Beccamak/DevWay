@@ -11,6 +11,7 @@ const Technologies = () => {
     
     return(
         <div className='tech-con'>
+        <h3 className='tertiary-heading'>Stacks & Technologies</h3>
         <div className='stacks'>
         {
             stacks.map(stack => {

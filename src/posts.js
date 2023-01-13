@@ -8,10 +8,15 @@ import Analysis from './assets/images/analysis.jpg';
 import Online from './assets/images/online.jpg';
 import EventBase from './assets/images/event base.jpeg';
 
+
+
 export const Tags = {
     design: "#0000ff",
     research: "#800080",
-    "artificial intelligence": "#ff0000"
+    "artificial intelligence": "#FC440F",
+    "security": "#1EFFBC",
+    "UI/UX": "#1F01B9",
+    
 };
 const Posts = [
     {
@@ -19,7 +24,7 @@ const Posts = [
         date: "23 Jan 2023",
         imgUrl: Robot,
         title: "Chat GPT: Open AI",
-        description: "How do I think of a description for this post when I haven't eaten, ahhh it is unfair . I need to get food first",
+        description: "A chatbot to answer anything you can think of. Between Mbappe and Halaand who is going to become the next world's greatest",
         tags: ["design", "research", "artificial intelligence"],
         text: "Lorem ipsum j djyueyfbfbyfu7eyrfllnfrfhriu "
     },
@@ -28,8 +33,8 @@ const Posts = [
         date: "21 Jan 2023",
         imgUrl: AR,
         title: "Augumented Reality",
-        description: "How do I think of a description for this post when I haven't eaten, ahhh it is unfair . I need to get food first",
-        tags: ["design", "research", "artificial intelligence"],
+        description: "A chatbot to answer questions like; between Mbappe and Halaand who is going to become the next world's greatest",
+        tags: ["design", "UI/UX", "artificial intelligence"],
         text: "Lorem ipsum j djyueyfbfbyfu7eyrfllnfrfhriu "
     },
     {
@@ -37,8 +42,8 @@ const Posts = [
         date: "28 Jan 2023",
         imgUrl: Online,
         title: "Next Gen Online Giant",
-        description: "How do I think of a description for this post when I haven't eaten, ahhh it is unfair . I need to get food first",
-        tags: ["design", "research", "artificial intelligence"],
+        description: "A chatbot to answer questions like; between Mbappe and Halaand who is going to become the next world's greatest",
+        tags: ["design", "security", "artificial intelligence"],
         text: "Lorem ipsum j djyueyfbfbyfu7eyrfllnfrfhriu "
     },
     {
@@ -46,7 +51,7 @@ const Posts = [
         date: "21 Jan 2023",
         imgUrl: VR,
         title: "Virtual Reality",
-        description: "How do I think of a description for this post when I haven't eaten, ahhh it is unfair . I need to get food first",
+        description: "A chatbot to answer questions like; between Mbappe and Halaand who is going to become the next world's greatest",
         tags: ["design", "research", "artificial intelligence"],
         text: "Lorem ipsum j djyueyfbfbyfu7eyrfllnfrfhriu "
     },
@@ -55,7 +60,7 @@ const Posts = [
         date: "21 Jan 2023",
         imgUrl: Analysis,
         title: "Tacking Thread in Tech",
-        description: "How do I think of a description for this post when I haven't eaten, ahhh it is unfair . I need to get food first",
+        description: "A chatbot to answer questions like; between Mbappe and Halaand who is going to become the next world's greatest",
         tags: ["design", "research", "artificial intelligence"],
         text: "Lorem ipsum j djyueyfbfbyfu7eyrfllnfrfhriu "
     },
@@ -64,7 +69,7 @@ const Posts = [
         date: "21 Jan 2023",
         imgUrl: VR,
         title: "Apple's Latest Gadget",
-        description: "How do I think of a description for this post when I haven't eaten, ahhh it is unfair . I need to get food first",
+        description: "A chatbot to answer questions like; between Mbappe and Halaand who is going to become the next world's greatest",
         tags: ["design", "research", "artificial intelligence"],
         text: "Lorem ipsum j djyueyfbfbyfu7eyrfllnfrfhriu "
     },
@@ -73,7 +78,7 @@ const Posts = [
         date: "21 Jan 2023",
         imgUrl: ProjectManagement,
         title: "Project Management Stages",
-        description: "How do I think of a description for this post when I haven't eaten, ahhh it is unfair . I need to get food first",
+        description: "A chatbot to answer questions like; between Mbappe and Halaand who is going to become the next world's greatest",
         tags: ["design", "research", "artificial intelligence"],
         text: "Lorem ipsum j djyueyfbfbyfu7eyrfllnfrfhriu "
     },
@@ -82,7 +87,7 @@ const Posts = [
         date: "21 Jan 2023",
         imgUrl: Native,
         title: "Latest Fin Tech App",
-        description: "How do I think of a description for this post when I haven't eaten, ahhh it is unfair . I need to get food first",
+        description: "A chatbot to answer questions like; between Mbappe and Halaand who is going to become the next world's greatest",
         tags: ["design", "research", "artificial intelligence"],
         text: "Lorem ipsum j djyueyfbfbyfu7eyrfllnfrfhriu "
     },
@@ -91,7 +96,7 @@ const Posts = [
         date: "21 Jan 2023",
         imgUrl: EventBase,
         title: "Event Organizer",
-        description: "How do I think of a description for this post when I haven't eaten, ahhh it is unfair . I need to get food first",
+        description: "A chatbot to answer questions like; between Mbappe and Halaand who is going to become the next world's greatest",
         tags: ["design", "research", "artificial intelligence"],
         text: "Lorem ipsum j djyueyfbfbyfu7eyrfllnfrfhriu "
     },
@@ -100,7 +105,7 @@ const Posts = [
         date: "21 Jan 2023",
         imgUrl: Gadget,
         title: "Apple's Latest Gadget",
-        description: "How do I think of a description for this post when I haven't eaten, ahhh it is unfair . I need to get food first",
+        description: "A chatbot to answer questions like; between Mbappe and Halaand who is going to become the next world's greatest",
         tags: ["design", "research", "artificial intelligence"],
         text: "Lorem ipsum j djyueyfbfbyfu7eyrfllnfrfhriu "
     },
@@ -109,7 +114,7 @@ const Posts = [
         date: "21 Jan 2023",
         imgUrl: VR,
         title: "Chat GPT: Open AI",
-        description: "How do I think of a description for this post when I haven't eaten, ahhh it is unfair . I need to get food first",
+        description: "A chatbot to answer questions like; between Mbappe and Halaand who is going to become the next world's greatest",
         tags: ["design", "research", "artificial intelligence"],
         text: "Lorem ipsum j djyueyfbfbyfu7eyrfllnfrfhriu "
     },
