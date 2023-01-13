@@ -6,8 +6,8 @@ import {Tags } from '../../posts';
 const PostCard = ({cardDetails}) => {
    const  {imgUrl, writer, date, title, description, tags} = cardDetails;
     return(
-        <div className='posts-container'>
-        <img  classname="" src={imgUrl}/>
+        <div className='all-posts-container'>
+        <img  classname="all-post-img" src={imgUrl}/>
         <p className='post-name'>{writer} .{date}</p>
         <p className='post-title'>{title}</p>
         <p  className='post-des'>{description}</p>

@@ -53,6 +53,14 @@
 
     font-size: 1.4rem;
 }
+.product{
+  color: #ffffff;
+  text-decoration:underline;
+  text-decoration-thickness: 2px;
+}
+.product:hover{
+  opacity: 0.6;
+}
 .services-cards{
     /* position: relative; */
     background-color: #ffffff;
@@ -140,7 +148,7 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 
   /* top: 0;
@@ -151,6 +159,8 @@
 
  font-size: 1.4rem;
  font-weight: 700;
+ margin-top: 1.2rem;
+ margin-bottom: 1.2rem;
 
 
 }
@@ -160,10 +170,15 @@
 }
 .card-text{
   font-size: 1.2rem;
+  line-height: 1.6;
 }
 
 .services-icon{
-  width: 2.4rem;
-  height: 2.4rem;
-  /* color: #4D4DFF; */
+  width: 3.2rem;
+  height: 3.2rem;
+  color: #212121;
+  background-color: #ffffff;
+  padding: 1.2rem;
+  border-radius: 50%;
+  stroke: #4D4DFF;
 }

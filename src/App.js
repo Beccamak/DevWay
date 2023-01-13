@@ -4,6 +4,7 @@ import Home from "./routes/home/home.component";
 import Navigation from "./routes/Navigation/navigation.component";
 import AboutUs from "./routes/about us/about.us.component";
 import ContactUs from "./routes/contact us/contact.us.component";
+import Products from "./routes/products/products.component";
 
 const App = () => {
   return(
@@ -13,6 +14,7 @@ const App = () => {
     <Route path="/blog" element={<Blog />}/>
     <Route path="/about-us" element={<AboutUs />}/>
     <Route path="/contact-us" element={<ContactUs />}/>
+    <Route path="our-products" element={<Products />}/>
     </Route>
     </Routes>
  

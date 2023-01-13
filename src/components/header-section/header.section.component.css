@@ -28,36 +28,5 @@
     opacity: 0.7;
 }
 
-.email-stn{
-  
-    display: flex;
-    gap: 1.2rem;
-    width: 30%;
-}
-.email-input{
-    border-radius: 4px;
-    font-size: 1.4rem;
-    padding: 0.7rem 0;
-    width: 100%;
-    border: none;
-    border: 1px solid #d5d6d9;
 
-}
-.email-input::placeholder{
-    font-size: 1.2rem;
-    color: #8a909e;
-    padding-left: 1.4rem;
 
-}
-.email-input input[type="text"]:focus{
-}
-.sub-btn{
-    background-color: none;
-    background-color: #4d4dff;
-    color: #ffffff;
-    border: none;
-    outline: none;
-    padding: 1rem 1.8rem;
-    border-radius: 4px;
-    font-size: 1.2rem;
-}

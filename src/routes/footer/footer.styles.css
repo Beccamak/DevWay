@@ -51,5 +51,48 @@
 }
 .footer-logo{
     color: #ffffff;
-    font-size: 4.8rem;
+    font-size: 3.6rem;
+   
+}
+.logo{
+    margin-top: 0.8rem;
+}
+.footer-email{
+    display: flex;
+    gap: 1.2rem;
+    width: 50%;
+    float: right;
+
+    
+}
+
+.footer-input{
+    border-radius: 4px;
+    font-size: 1.4rem;
+    padding: 0.7rem 1.4rem;
+    width: 100%;
+    border: none;
+     }
+.footer-input::placeholder{
+    font-size: 1.2rem;
+    color: #8a909e;
+}
+
+.footer-input:focus{
+    outline: none;
+}
+.footer-btn{
+    color: #ffffff;
+    background-color: #4f4dfd;
+    padding: 1.2rem 2rem;
+    border-radius: 4px;
+    transition: border 0.2s linear;
+    cursor: pointer;
+    border: none;
+
+}.footer-btn:hover{
+    background: none;
+    border: 1px solid #4f4dfd;
+    color: #4f4dfd;
+    font-weight: 700;
 }

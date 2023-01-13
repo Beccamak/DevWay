@@ -1,45 +1,46 @@
 import './footer.styles.css';
 import {Link} from 'react-router-dom';
+import { useState } from 'react';
 
 
 const Footer = () => {
+    const [value, setValue] = useState("");
     return (
         <div className='footer'>
             <div className='footer-items'>
                 <div  className='footer-logo-col'>
-                    <div>
-                    <Link className='footer-logo' to='/'>Logo</Link>
+                    <div className='logo'>
+                    <Link className='footer-logo' to='/'>Coral Clouds</Link>
                     </div>
-                    <p className='copyright'>Copyright &copy; 2022 by Rebecca, Inc. All rights reserved.</p>
+                    <p className='copyright'>Copyright &copy; 2023 by Rebecca, Inc. All rights reserved.</p>
                 </div>
                 <div>
                     <p className='footer-heading'>Contact us</p>
                     <address className='contacts'>
-                    <p className='address'>623 Harrison St., 3rd Floor, San Francisco, CA 94107</p>
+                    <p className='address'>7 Brewery Road, Plumstead, London, SE18 7PS, UK</p>
                     <p>
-                    <Link className='footer-link' to="tel:234-201-777">234-201-777</Link>
+                    <Link className='footer-link' to="tel:+447488371561">+44 7488371561</Link>
                     <br />
-                    <Link className='footer-link' to="mailto:shopHere@gmail.com">shopHere@gmail.com</Link>
+                    <Link className='footer-link' to="mailto:info@coralclouds.tech">info@coralclouds.tech</Link>
                     </p>
                     </address>
                     
                 </div>
-                <div>
-                    <p className='footer-heading'>Account</p>
-                        <ul className='footer-links'>
-                        <Link className='footer-link' to="/">Create an account</Link>
-                        <Link className='footer-link' to="/">Sign in</Link>
-                        <Link className='footer-link' to="/">iOS app</Link>
-                        <Link className='footer-link' to="/">Android app</Link>
-                        </ul>
-                </div>
+                
                 <div>
                 <p className='footer-heading'>Company</p>
                         <ul className='footer-links'>
-                        <Link className='footer-link' to="/">About Virtual Store</Link>
+                        <Link className='footer-link' to="/">About us</Link>
                         <Link className='footer-link' to="/">For Business</Link>
                         <Link className='footer-link' to="/">Partners</Link>
                         <Link className='footer-link' to="/">Careers</Link>
+                        </ul>
+                </div>
+                <div>
+                    <p className='footer-heading'>Our</p>
+                        <ul className='footer-links'>
+                        <Link className='footer-link' to="/our-products">Products</Link>
+                        <Link className='footer-link' to="/blog">Blog</Link>
                         </ul>
                 </div>
                 <div>
@@ -49,8 +50,12 @@ const Footer = () => {
                         <Link className='footer-link' to="/">Privacy & terms</Link>
                         <Link className='footer-link' to="/">Faqs</Link>
                         </ul>
-                </div>
-            </div>
+                        </div>
+                        </div>
+                        <div className='footer-email'>
+                        <input className='footer-input' value={value} onChange={(event) => setValue(event.target.value)} placeholder="Enter your email"/>
+                        <button className='footer-btn'>Subscribe</button>
+                        </div>
         </div>
     )
 }

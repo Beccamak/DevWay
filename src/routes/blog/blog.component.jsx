@@ -10,7 +10,7 @@ const Blog = () => {
         <RecentPosts />
         <AllPosts />
         </div>
-    )
-}
-
-export default Blog;
+        )
+    }
+    
+    export default Blog;

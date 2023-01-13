@@ -1,9 +1,9 @@
 import './contact.us.styles.css';
-import ContactImage from '../../assets/images/contact-us.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagramSquare, faLinkedin, faTwitter, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faLocation, faEnvelope , faPhone } from '@fortawesome/free-solid-svg-icons';
-import {ReactComponent as Contact} from '../../assets/categories/contact-us.svg';
+import Contact from '../../assets/images/contact-us.png';
+import Button from '../../components/button/button.component';
 const ContactUs = () => {
     return(
         <div >
@@ -12,8 +12,7 @@ const ContactUs = () => {
          <p></p>
          <p >Thank you for your interest in our services and business solutions. Share your requirements and ideas with us and get all your question answered by our experts. Please fill out this form and our representative will get back to you shortly. We are here to help you accelerate digital transformation and drive innovation.</p>
          </div>
-         <Contact  className='contact-us-blob'/>
-        
+         <img src={Contact} alt="Coral CLouds"/>        
          </div>
 
          <div className='contact'>
@@ -48,8 +47,9 @@ const ContactUs = () => {
          <label>Project Brief</label>
          <textarea type="text" className='brief' required/>
          <input type="file" className='file' size="40" accept='.pdf, .doc, .docx' ></input>
-         <p>(.doc, .docx and .pdf files below 5MB size allowed.)</p>
-         <button className='submit'>Submit</button>
+         <div className='submit'>
+         <Button children="Submit" />
+         </div>
          </form>
          <div className='get-in-touch'>
          <p className='text'>Get in Touch</p>
