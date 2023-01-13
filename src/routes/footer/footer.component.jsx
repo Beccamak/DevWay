@@ -64,4 +64,9 @@ const Footer = () => {
 
 export default Footer;
 
-
+// </clipPath>
+//      <defs>
+//      <clipPath id="user-space" clipPathUnits="userSpaceOnUse">
+//      </defs>
+//      <image width="100%" height="100%" preserveAspectRatio="xMinYMin slice" href="https:i.ibb.co/qpTBjzQ/pexels-fauxels-3184634.jpeg" clip-path="url(#user-space)"/>
+     
