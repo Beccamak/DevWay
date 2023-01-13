@@ -5,7 +5,7 @@ import FashionFix from "../../assets/images/fashionfix.jpeg";
 import Native from "../../assets/images/native.jpeg";
 import EventBase from "../../assets/images/event base.jpeg";
 import { Link } from 'react-router-dom';
-
+import Home from '../../assets/images/home.jpg';
 
 
 
@@ -27,6 +27,7 @@ const Products = () => {
                 </Link>
             })
         }
+        
         </div>
        
         )
