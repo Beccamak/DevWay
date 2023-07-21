@@ -47,6 +47,7 @@ const HomeHeaderSection = ()  => {
           }}>
         <div className='gre '>
         <Home  className='main-pic'/>
+
         <Picture className='neon-header' />
         </div>
 

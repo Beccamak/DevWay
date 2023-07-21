@@ -97,6 +97,29 @@
     font-weight: 700;
 }
 
+@media screen and (max-width:75em){
+    .post-cards{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .posts-con{
+        width: 100%;
+    }
+    .footer-logo{
+        font-size: 4rem;
+    }
+    .footer{
+        padding: 2.4rem;
+        position: relative; 
+    }
+    .footer-email{
+        position: absolute;
+        right: 2.4rem;
+        bottom: 2.4rem;
+        display: flex;
+        align-items: flex-end;
+    }
+}
+
 @media screen and (max-width: 39em){
     .footer{
         padding: 2rem;
