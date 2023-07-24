@@ -96,7 +96,9 @@
     color: #4f4dfd;
     font-weight: 700;
 }
-
+.footer-link:hover{
+    opacity: 1;
+}
 @media screen and (max-width:75em){
     .post-cards{
         grid-template-columns: 1fr 1fr 1fr;
@@ -137,4 +139,15 @@
         grid-template-columns: 1fr 1fr;
         width: 100%;
     }
+    .footer-email{
+        display: none;
+    }
+    .address{
+        margin-bottom: 0;
+    }
+   .mobile{
+    display: flex;
+    gap: 1.2rem;
+    margin-top: 2.4rem;
+   }
 }

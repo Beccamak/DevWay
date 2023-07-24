@@ -2,7 +2,7 @@ import './services.styles.css';
 import {Link} from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDesktop } from '@fortawesome/free-solid-svg-icons';
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import { useInView } from 'framer-motion';
 const Services = () => {
     const servicesA= [{"Product Design": [faDesktop, "Lorem Ipsum Product Design utilizzato nel settore della tipografia e della stampao."]},
@@ -12,6 +12,7 @@ const Services = () => {
     {"Data Analytics":[faDesktop, "Lorem Ipsum Data Analytics utilizzato nel settore della tipografia e della stampao."]}];
     const ref = useRef(null);
     const isInView = useInView(ref, {once: true});
+    const [ifDesktop, setIfDesktop] = useState(false);
     return(
         <div ref={ref} className='services-con' style={{
             transform: isInView ? "none" : "translateY(100px)",
@@ -22,7 +23,7 @@ const Services = () => {
         <p className='our-services'>Our Services</p>
         <p className='services-text'>These are the services that we render to our clients and that also involves our <Link className='product' to="/our-products">products</Link></p>
         </div>
-        <div className='services-cards'>
+       {ifDesktop?  <div className='services-cards'>
         <div className='sers'>
         {servicesA.map((service) => {
             return <div className='hi'>
@@ -52,6 +53,27 @@ const Services = () => {
         <div></div>
         </div>
         </div>
+    :
+    
+    // mobile
+    <div className='services-cards'>
+    {servicesA.map((service) => {
+        return <div className='card-ch'>
+        <FontAwesomeIcon className='services-icon' icon={service[Object.keys(service)][0]}/>
+        <p className='card-title '>{Object.keys(service)}</p>
+        <p className='card-text' >{service[Object.keys(service)][1]} </p>
+        </div>
+        
+    })}
+    {servicesB.map((service) => {
+        return <div className="card-ch">
+        <FontAwesomeIcon className='services-icon'  icon={service[Object.keys(service)][0]}/>
+        <p className='card-title'>{Object.keys(service)}</p>
+        <p className='card-text' >{service[Object.keys(service)][1]} </p>
+        </div>
+    })}
+    </div>
+    }
         </div>
     )
 }

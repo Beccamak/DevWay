@@ -16,7 +16,7 @@ const HomeHeaderSection = ()  => {
     }
     return(
         <div ref={ref} className='hm-hd-sc'>
-        <div className='header-text' >
+         <div className='header-text' >
         <p className='we' style={{
             "font-size": isInView ? "" : "1.8rem",
             opacity: isInView ? 1 : 0,
@@ -46,12 +46,16 @@ const HomeHeaderSection = ()  => {
             transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
           }}>
         <div className='gre '>
-        <Home  className='main-pic'/>
-
+          <div className='main-pic'>
+        <Home  />
         <Picture className='neon-header' />
+          </div>
+
+        
         </div>
 
         </div>
+      
         </div>
     )
 }

@@ -23,6 +23,7 @@ const Footer = () => {
                     <br />
                     <Link className='footer-link' to="mailto:info@coralclouds.tech">info@coralclouds.tech</Link>
                     </p>
+                    
                     </address>
                     
                 </div>
@@ -53,6 +54,10 @@ const Footer = () => {
                         </div>
                         </div>
                         <div className='footer-email'>
+                        <input className='footer-input' value={value} onChange={(event) => setValue(event.target.value)} placeholder="Enter your email"/>
+                        <button className='footer-btn'>Subscribe</button>
+                        </div>
+                        <div className=' mobile'>
                         <input className='footer-input' value={value} onChange={(event) => setValue(event.target.value)} placeholder="Enter your email"/>
                         <button className='footer-btn'>Subscribe</button>
                         </div>

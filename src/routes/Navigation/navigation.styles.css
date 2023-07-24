@@ -87,3 +87,14 @@
     border: 1px solid #4D4DFF;
     color: #4D4DFF;
 }
+
+
+@media screen and (max-width: 39em){
+   .pages-con{
+    display: none;
+   }
+   .nav{
+    margin-bottom:2.8rem;
+   }
+   
+}

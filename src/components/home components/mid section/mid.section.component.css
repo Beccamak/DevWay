@@ -31,3 +31,29 @@
     font-size: 1.6rem;
     line-height: 1.4;
 }
+
+
+
+@media (max-width: 768px) { 
+    .mid-section{
+        margin-top: 2.4rem;
+      display: block;
+      padding: 1.4rem;
+      height: unset;
+    }
+    .mid-up{
+        font-size: 2.4rem;
+        max-width: 100%;
+    }
+    .container{
+        padding: 1.4rem;
+    }
+    .line{
+        display: none;
+    }
+    .mid-down{
+        max-width: 100%;
+        font-size: 1.2rem;
+        margin-top: 1.6rem;
+    }
+    }

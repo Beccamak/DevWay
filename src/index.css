@@ -93,3 +93,4 @@ letter-spacing: 0.75px;
 .grid--2-cols{
   grid-template-columns: repeat(2, 1fr);
 }
+
