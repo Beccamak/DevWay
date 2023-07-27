@@ -119,8 +119,16 @@
     }
 }
 
+@media screen and (max-width: 48em){
+    .address, .footer-link, .copyright{
+        font-size: 1.4rem;
+    }
+}
 
-@media screen and (max-width: 39em){
+@media screen and (max-width: 40em){
+    .footer-logo{
+        font-size: 2.8rem;
+    }
     .footer{
         padding: 2rem;
         width: 100%;
@@ -146,3 +154,4 @@
     margin-top: 2.4rem;
    }
 }
+

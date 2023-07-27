@@ -50,3 +50,9 @@
 .arrow:hover{
     opacity: 0.9;
 }
+
+@media screen and (max-width: 48em) {
+    .tags{
+        flex-direction: column;
+    }
+}
