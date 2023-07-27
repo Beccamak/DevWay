@@ -43,8 +43,18 @@
 
 }
 
-@media screen and (max-width:768px){
+/* @media screen and (max-width:768px){
     .post-cards{
         grid-template-columns: 1fr 1fr;
+    }
+} */
+/* @media screen and (max-width:75em){
+    .post-cards{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+} */
+@media screen and(max-width: 48em){
+    .post-cards{
+        grid-template-columns:30% 30% 30%;
     }
 }

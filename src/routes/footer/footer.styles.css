@@ -100,9 +100,6 @@
     opacity: 1;
 }
 @media screen and (max-width:75em){
-    .post-cards{
-        grid-template-columns: 1fr 1fr 1fr;
-    }
     .posts-con{
         width: 100%;
     }
@@ -122,6 +119,7 @@
     }
 }
 
+
 @media screen and (max-width: 39em){
     .footer{
         padding: 2rem;
@@ -135,10 +133,7 @@
     .footer-heading{
         margin-bottom: 1.2rem;
     }
-    .post-cards{
-        grid-template-columns: 1fr 1fr;
-        width: 100%;
-    }
+    
     .footer-email{
         display: none;
     }

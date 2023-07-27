@@ -21,3 +21,22 @@
     
 
 }
+
+
+@media screen and (Max-width: 80em){
+    .email-stn{
+        width: 50%;
+    }
+}
+
+
+@media screen and (Max-width: 48em){
+    .email-stn{
+        width: 60%;
+    }
+}
+@media screen and (Max-width: 40em){
+    .email-stn{
+        width: 100%;
+    }
+}

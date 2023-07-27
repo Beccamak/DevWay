@@ -15,7 +15,7 @@
     align-items: center;
     padding:2.5rem 0;
     justify-content: space-between;
-    gap: 3.4rem;
+    gap: 1.4rem;
     font-size: 1.4rem;
 }
 .start{
@@ -26,7 +26,6 @@
 
 .pages-con{
     display:flex;
-    gap: 1.2rem;
    
 }
 .logo-txt{
@@ -89,7 +88,7 @@
 }
 
 
-@media screen and (max-width: 39em){
+@media screen and (max-width: 40em){
    .pages-con{
     display: none;
    }
@@ -97,4 +96,11 @@
     margin-bottom:2.8rem;
    }
    
+}
+
+
+@media screen and (Max-width: 40em){
+    .email-stn{
+        width: 100%;
+    }
 }

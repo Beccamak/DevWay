@@ -99,9 +99,10 @@
     width: 80%;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:48em){
     .posts-con{
-        display:unset;
+        display:flex;
+        flex-direction: column;
     }
     
 }
