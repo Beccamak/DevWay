@@ -13,11 +13,11 @@ const AboutUs = () => {
         <section className='sec-abt' >
         <div className='container main-abt-us'>
         <div className='abt-us'>
-        <h2 className='secondary-heading text-center'>Who we are</h2>
+        <h2 className='secondary-heading'>Who we are</h2>
         <p className='abt-us-description'>We are a Corporate Branding Agency with a Team of Professionals providing exceptional Business Solution & Consultancy Services in a world where trusted services are in short supply. Branding, Publicity & Media Technology is our Business and one hundred percent perfection is our goal, yes, we can.</p>
         </div>
         <div className='abt-us'>
-        <h2 className='secondary-heading text-center'>Our Unique Approach</h2>
+        <h2 className='secondary-heading '>Our Approach</h2>
         <p className='abt-us-description'>Unique approach
         At Coralclouds, you’ll benefit from our four-phased approach. This method shows us your whole organization, allowing us to identify the best strategy, the tactics that will bring you success, and how you can improve upon that success.</p>
         </div>

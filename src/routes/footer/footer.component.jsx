@@ -31,7 +31,7 @@ const Footer = () => {
                 <div>
                 <p className='footer-heading'>Company</p>
                         <ul className='footer-links'>
-                        <Link className='footer-link' to="/">About us</Link>
+                        <Link className='footer-link' to="/about-us">About us</Link>
                         <Link className='footer-link' to="/">For Business</Link>
                         <Link className='footer-link' to="/">Partners</Link>
                         <Link className='footer-link' to="/">Careers</Link>
@@ -53,7 +53,7 @@ const Footer = () => {
                         </ul>
                         </div>
                         </div>
-                        <div className='footer-email'>
+                    {/*   <div className='footer-email'>
                         <input className='footer-input' value={value} onChange={(event) => setValue(event.target.value)} placeholder="Enter your email"/>
                         <button className='footer-btn'>Subscribe</button>
                         </div>
@@ -61,6 +61,7 @@ const Footer = () => {
                         <input className='footer-input' value={value} onChange={(event) => setValue(event.target.value)} placeholder="Enter your email"/>
                         <button className='footer-btn'>Subscribe</button>
                         </div>
+    */}
         </div>
     )
 }

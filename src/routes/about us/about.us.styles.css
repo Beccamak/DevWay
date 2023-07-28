@@ -14,7 +14,9 @@
 .abt-us-img{
     width: 70%
 }
-
+.abt-us{
+    width: 50%;
+}
 
 .abt-us-number {
     font-size: 8.6rem;
@@ -24,7 +26,7 @@
   }
   
   .abt-us-description {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     line-height: 1.8;
     
 
