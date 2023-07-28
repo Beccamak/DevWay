@@ -13,7 +13,7 @@ const ContactUs = () => {
          <p >
          We would like to assure you that our customer care team is available to assist you with any queries or concerns you may have. In order to make it easier for you to get in touch with us, we have provided a form below that you can fill out. Once the form is submitted, one of our customer care representatives will reach out to you soon.</p>
          </div>
-         <img src={Contact} alt="Coral CLouds"/>        
+         <img className='ct-im' src={Contact} alt="Coral CLouds"/>        
          </div>
 
          <div className='contact'>

@@ -23,6 +23,10 @@
     line-height: 1.6;
 
 }
+.ct-im{
+    width: 50%;
+    margin-top: 6.8rem;
+}
 /* style={{backgroundImage: `url(${ContactImage})`}} */
 .contact-header-img{
    width: 600px;
@@ -108,7 +112,7 @@ label{
     margin-bottom: 2.4rem;
 }
 .discuss{
-    font-size: 3.6rem;
+    font-size: 2.4rem;
     padding: 1rem 1.6rem;
     color: #4d4DFF;
     /* background-color: #4d4DFF; */
@@ -154,3 +158,62 @@ label{
 .side{
     color: #ffffff; 
 }
+
+
+@media screen and (max-width: 48rem) {
+    .contact-header{
+        flex-direction: column;
+        height: unset;
+        justify-content: start;
+        align-items: start;
+
+    }   
+    .contact-header-txt{
+        width: unset;
+        font-size: 1.2rem;
+        line-height: 2;
+
+    }
+    .ct-im{
+        margin-top: 0;
+        width: 100%
+    } 
+     .get-in-touch{
+        font-size: 2rem;
+        width: unset;
+
+    }
+    .contact-speech{
+        display: none;
+    }
+    .form-container{
+        flex-direction: column;
+
+    }
+    .form{
+        width: 100%;
+    }
+    .git-details{
+        margin-bottom: 2.4rem;
+    }
+}
+
+@media screen and (max-width: 30rem){
+    .details-section{
+        flex-direction: column;
+        justify-content: unset;
+        align-items: unset;
+
+    }    
+    .section-1,.section-2{
+        width: 100%;
+    }
+    .discuss{
+        font-size: 1.8rem;
+    }
+    .personal-info{
+        font-size: 1.6rem;
+    }
+}
+
+

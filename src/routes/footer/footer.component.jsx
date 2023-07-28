@@ -42,6 +42,7 @@ const Footer = () => {
                         <ul className='footer-links'>
                         <Link className='footer-link' to="/our-products">Products</Link>
                         <Link className='footer-link' to="/blog">Blog</Link>
+                        <Link className='footer-link' to="/contact-us">Contact</Link>
                         </ul>
                 </div>
                 <div>

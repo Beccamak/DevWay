@@ -118,7 +118,7 @@
     
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 48px){
     .hm-hd-sc{
         display: block;
     }
@@ -134,4 +134,40 @@
     .header-pic{
         
     }
+}
+
+@media screen and (max-width: 40rem){
+    
+    .hm-header-title{
+        margin-left: 0;
+        font-size: 2.8rem;
+    }
+    .main-pic{
+        width: 82rem;
+        height: 72rem;
+        margin: -1.6rem;
+    }
+    .hm-hd-sc{
+        flex-direction: column;
+        
+        gap: 2rem;
+    }
+    .header-text{
+        margin-left: 0;
+        width: 100%;
+    }
+    .neon-header{
+        display: none;
+    }
+    .hm-header-text{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 462px) {
+   .main-pic{
+    margin: -9.6rem;
+    margin-top: -4.8rem;
+
+   } 
 }
