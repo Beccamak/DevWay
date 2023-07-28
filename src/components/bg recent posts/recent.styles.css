@@ -106,3 +106,22 @@
     }
     
 }
+@media screen and (max-width: 32rem){
+    .post-2, .post-3{
+        flex-direction: column;
+    }
+    .recent-post-img2, .recent-post-img3{
+        width: 100%;
+    }
+    .post-2 img, .post-3 img{
+        height: 20rem;
+        object-fit: cover;
+    }
+    .post-details{
+    margin-left: 0;
+    }
+    .post-title{
+        font-size: 1.4rem;
+    }
+    
+}

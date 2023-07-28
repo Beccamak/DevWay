@@ -51,8 +51,15 @@
     opacity: 0.9;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (max-width: 48rem) {
     .tags{
         flex-direction: column;
+    }
+}
+@media screen and (max-width: 32rem) {
+    .all-posts-container img{
+        height: 8rem;
+        object-fit: cover;
+        
     }
 }
