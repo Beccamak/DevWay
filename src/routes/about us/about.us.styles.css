@@ -12,7 +12,7 @@
     align-items: center;
 }
 .abt-us-img{
-    width: 70%
+    width: 100%
 }
 .abt-us{
     width: 50%;
@@ -32,3 +32,26 @@
 
     }
   
+    @media screen and (max-width: 48rem){
+       .main-abt-us{
+        gap: 4.8rem;
+       }
+       .abt-us-number{
+        font-size: 4.8rem;
+       }
+    }
+    @media screen and (max-width: 40rem){
+       .main-abt-us{
+        gap: 4.8rem;
+        flex-direction: column;
+       }
+       .abt-us-number{
+        font-size: 4.8rem;
+       }
+       .abt-us-description{
+        font-size: 1.2rem;
+       }
+       .abt-us{
+        width: 100%;
+       }
+    }

@@ -48,12 +48,12 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 } */
-@media screen and (max-width: 48em) {
+@media screen and (max-width: 48rem) {
   .post-cards {
     grid-template-columns: 30% 30% 30%;
   }
 }
-@media screen and (max-width: 40em) {
+@media screen and (max-width: 40rem) {
   .post-cards {
     grid-template-columns: 1fr 1fr;
     gap: 2.4rem;
