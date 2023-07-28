@@ -119,9 +119,13 @@
     }
     .post-details{
     margin-left: 0;
+    width: 100%;
     }
     .post-title{
         font-size: 1.4rem;
+    }
+    .details-1{
+        width: 100%;
     }
     
 }
